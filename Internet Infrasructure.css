@@ -1,0 +1,178 @@
+topbox {
+  padding-left: 100%;
+width: 100%;
+  padding-top: 400px;
+  padding-bottom: 400px;
+
+  background: #ff7c2b;
+    
+    
+}
+
+
+midbox {
+  padding-left: 100%;
+width: 100%;
+  padding-top: 35px;
+  padding-bottom: 700px;
+
+  background: #9178a5;
+}
+
+
+body {
+  padding-bottom: 500px;
+    background-color: gainsboro;
+    
+ 
+  
+}
+
+h1 {
+
+  padding-top: 30px;
+
+
+  padding-bottom: 0px;
+
+  font-family: Helvetica;
+  color: white;
+  width: 100%;
+
+  font-size: 80px;
+  text-align: center;
+}
+
+p {
+  width: 100%;
+
+  text-align: center;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+h2 {
+  border: 2px solid #ff7c2b;
+   
+
+  padding-top: 10px;
+
+  padding-bottom: 20px;
+text-align: center;
+  width: 100%;
+  color: #ff7c2b;
+  
+  font-family: Helvetica;
+  font-size: 40px;
+}
+
+
+
+
+img {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 100%;
+  height: auto;
+    
+ 
+}
+
+
+
+
+
+div.gallery {
+    
+    
+  position: relative;
+  width: auto;
+    background: #9178a5;
+    margin: 15px;
+    border: 3px solid #ff7c2b;
+    float: left;
+    width: 300px;
+    border-radius: 15px;
+}
+
+
+div.gallery img {
+   
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+      font-family: Helvetica;
+  font-size: 20px;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.image {
+   
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+    
+     border-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: orange;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+
+div.gallery:hover .overlay {
+  height: 100%;
+ cursor: pointer;
+    
+    opacity: 0.92;
+    
+    border: 1px solid black;
+}
+
+.text {
+ 
+  white-space: nowrap; 
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+  
+   
+
+  
+
+
+
+
+
+
+
